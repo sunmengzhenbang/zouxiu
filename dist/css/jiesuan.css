@@ -1,0 +1,228 @@
+@charset "UTF-8";
+html {
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+/*隐藏横向滚动，垂直滚动根据内容自适应（去除IE默认垂直滚动条）*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset,
+lengend, button, select, input, textarea, th, td {
+  /* 清除内外边距 */
+  margin: 0;
+  padding: 0; }
+
+body, button, input, select, textarea {
+  /* 设置默认字体 */
+  font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif; }
+
+h1 {
+  font-size: 18px; }
+
+h2 {
+  font-size: 16px; }
+
+h3 {
+  font-size: 14px; }
+
+h4, h5, h6 {
+  font-size: 100%; }
+
+ul, ol {
+  list-style: none; }
+
+/* 重置列表元素 */
+/* 重置文本格式元素  */
+a {
+  text-decoration: none;
+  color: #000; }
+
+q:before, q:after {
+  content: ''; }
+
+/* 重置表单元素 */
+legend {
+  color: #000; }
+
+fieldset, img {
+  border: none; }
+
+button, input, select, textarea {
+  font-size: 100%;
+  /* 使得表单元素在 ie 下能继承字体大小 */ }
+
+/* 重置表格元素 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* 重置 hr */
+hr {
+  border: none;
+  height: 1px; }
+
+.div1 {
+  width: 213px;
+  height: 53px;
+  background: #fff; }
+
+.div1 a img {
+  margin-left: 164px;
+  margin-top: 13px; }
+
+.div2 ul li {
+  float: left; }
+
+.div2 {
+  float: right;
+  margin-right: 163px;
+  margin-top: -20px; }
+
+.div2 ul li:nth-child(1) {
+  font-size: 14px;
+  color: #151515; }
+
+.div2 ul li:nth-child(2) {
+  font-size: 16px;
+  color: #f26521;
+  font-weight: 800;
+  margin-top: -2px; }
+
+.div2 ul li:nth-child(3) {
+  font-size: 12px;
+  color: #5b5b5b;
+  margin-top: 2px;
+  margin-left: 2px; }
+
+.div3 {
+  margin-top: 10px;
+  margin-left: 165px;
+  width: 955px;
+  height: 10px;
+  background: #fff;
+  border-bottom: 1px solid #000; }
+
+.div4 {
+  margin-top: 10px;
+  margin-left: 165px;
+  width: 955px;
+  height: 40px; }
+
+.catbox #cartTable {
+  width: 950px;
+  margin-left: 170px; }
+
+.catbox #cartTable thead {
+  margin-left: 200px; }
+
+.catbox #cartTable thead tr th {
+  width: 181px;
+  margin-left: 580px;
+  text-align: left;
+  left: 400px;
+  height: 36px;
+  background: #e3e3e3;
+  margin-left: 20px; }
+
+.catbox #cartTable tbody {
+  margin-left: 20px; }
+
+.catbox #cartTable tbody tr {
+  margin-left: 90px; }
+
+.catbox #cartTable tbody tr .chechbox {
+  width: 130px;
+  height: 110px; }
+
+.catbox #cartTable tbody tr .goods span {
+  font-size: 12px;
+  color: #000; }
+
+.catbox #cartTable tbody tr .price span {
+  margin-left: 90px; }
+
+.catbox #cartTable tbody tr .count-input {
+  width: 40px; }
+
+.catbox #cartTable tbody tr td {
+  margin-left: 30px; }
+
+.catbox #cartTable tbody tr td span {
+  text-align: center; }
+
+/*底部*/
+.catbox .foot {
+  height: 50px;
+  width: 950px;
+  margin: 0 auto;
+  background: #e3e3e3; }
+
+.catbox .foot .select-all {
+  width: 100px;
+  height: 40px;
+  background: #e3e3e3;
+  margin-left: 1px;
+  position: relative; }
+
+.catbox .foot a {
+  margin-top: 15px; }
+
+.catbox .foot .selectedViewList div span {
+  margin-left: 200px; }
+
+.catbox .foot .total {
+  float: right;
+  margin-right: 1px;
+  margin-top: -20px;
+  overflow: hidden;
+  background: orange;
+  height: 50px;
+  width: 160px;
+  line-height: 50px;
+  text-align: center; }
+
+.catbox .foot .closing {
+  margin-right: 200px; }
+
+.div5 {
+  width: 950px;
+  height: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-left: 165px; }
+
+.div6 li {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px; }
+
+.div6 {
+  margin-left: 165px;
+  margin-top: 10px; }
+
+.div6 li a {
+  font-weight: 600;
+  color: orange; }
+
+.div7 {
+  width: 950px;
+  height: 30px;
+  background: #fff;
+  margin-top: 60px;
+  margin-left: 165px;
+  border-bottom: 1px solid #111; }
+
+/*倒数第二行*/
+.bottom4 ul li {
+  float: left;
+  font-size: 12px;
+  color: #999; }
+
+.bottom4 ul li a {
+  color: #999; }
+
+.bottom4 ul {
+  margin-top: 20px;
+  margin-left: 256px; }
+
+.bottom4 ul li a:hover {
+  color: #feb300; }
